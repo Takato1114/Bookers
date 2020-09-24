@@ -1,0 +1,8 @@
+<p id="notice">
+ <%=  notice %>
+
+<p>Title:<%= @book.title %></p>
+<p>Body:<%= @book.body %></p>
+
+<%= link_to "edit", edit_book_path(@book) %> |
+<%= link_to "back", books_path %>
